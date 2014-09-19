@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
 
   s.name         = "ZHLib"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ZHLib."
 
   s.homepage     = "https://www.yuenvshen.com"
   s.license      = "BSD"
