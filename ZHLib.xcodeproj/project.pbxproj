@@ -44,7 +44,6 @@
 /* Begin PBXFileReference section */
 		C0E4FE4019CBE07B00D9B9BC /* libZHLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZHLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4FE4319CBE07B00D9B9BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C0E4FE4719CBE07B00D9B9BC /* ZHLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZHLib-Prefix.pch"; sourceTree = "<group>"; };
 		C0E4FE4819CBE07B00D9B9BC /* ZHLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLib.h; sourceTree = "<group>"; };
 		C0E4FE5019CBE07B00D9B9BC /* ZHLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4FE5119CBE07B00D9B9BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +53,7 @@
 		C0E4FE5F19CBE07B00D9B9BC /* ZHLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLibTests.m; sourceTree = "<group>"; };
 		C0E4FE6919CBE0B200D9B9BC /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		C0E4FE6A19CBE0B200D9B9BC /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C0E4FFAB19CC030200D9B9BC /* ZHLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZHLib-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 		C0E4FE4619CBE07B00D9B9BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0E4FE4719CBE07B00D9B9BC /* ZHLib-Prefix.pch */,
+				C0E4FFAB19CC030200D9B9BC /* ZHLib-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -333,7 +333,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/ZHLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZHLib/ZHLib-Prefix.pch";
+				GCC_PREFIX_HEADER = "ZHLib-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -345,7 +345,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/ZHLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZHLib/ZHLib-Prefix.pch";
+				GCC_PREFIX_HEADER = "ZHLib-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
