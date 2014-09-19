@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0E4FE4419CBE07B00D9B9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4FE4319CBE07B00D9B9BC /* Foundation.framework */; };
+		C0E4FE4919CBE07B00D9B9BC /* ZHLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0E4FE4819CBE07B00D9B9BC /* ZHLib.h */; };
+		C0E4FE5219CBE07B00D9B9BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4FE5119CBE07B00D9B9BC /* XCTest.framework */; };
+		C0E4FE5319CBE07B00D9B9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4FE4319CBE07B00D9B9BC /* Foundation.framework */; };
+		C0E4FE5519CBE07B00D9B9BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4FE5419CBE07B00D9B9BC /* UIKit.framework */; };
+		C0E4FE5819CBE07B00D9B9BC /* libZHLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4FE4019CBE07B00D9B9BC /* libZHLib.a */; };
+		C0E4FE5E19CBE07B00D9B9BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0E4FE5C19CBE07B00D9B9BC /* InfoPlist.strings */; };
+		C0E4FE6019CBE07B00D9B9BC /* ZHLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4FE5F19CBE07B00D9B9BC /* ZHLibTests.m */; };
+		C0E4FE6B19CBE0B200D9B9BC /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4FE6A19CBE0B200D9B9BC /* Message.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0E4FE5619CBE07B00D9B9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E4FE3819CBE07B00D9B9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E4FE3F19CBE07B00D9B9BC;
+			remoteInfo = ZHLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0E4FE3E19CBE07B00D9B9BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C0E4FE4919CBE07B00D9B9BC /* ZHLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0E4FE4019CBE07B00D9B9BC /* libZHLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZHLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E4FE4319CBE07B00D9B9BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0E4FE4719CBE07B00D9B9BC /* ZHLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZHLib-Prefix.pch"; sourceTree = "<group>"; };
+		C0E4FE4819CBE07B00D9B9BC /* ZHLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLib.h; sourceTree = "<group>"; };
+		C0E4FE5019CBE07B00D9B9BC /* ZHLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E4FE5119CBE07B00D9B9BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0E4FE5419CBE07B00D9B9BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0E4FE5B19CBE07B00D9B9BC /* ZHLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZHLibTests-Info.plist"; sourceTree = "<group>"; };
+		C0E4FE5D19CBE07B00D9B9BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0E4FE5F19CBE07B00D9B9BC /* ZHLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLibTests.m; sourceTree = "<group>"; };
+		C0E4FE6919CBE0B200D9B9BC /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C0E4FE6A19CBE0B200D9B9BC /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E4FE3D19CBE07B00D9B9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4FE4419CBE07B00D9B9BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E4FE4D19CBE07B00D9B9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4FE5219CBE07B00D9B9BC /* XCTest.framework in Frameworks */,
+				C0E4FE5819CBE07B00D9B9BC /* libZHLib.a in Frameworks */,
+				C0E4FE5519CBE07B00D9B9BC /* UIKit.framework in Frameworks */,
+				C0E4FE5319CBE07B00D9B9BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0E4FE3719CBE07B00D9B9BC = {
+			isa = PBXGroup;
+			children = (
+				C0E4FE4519CBE07B00D9B9BC /* ZHLib */,
+				C0E4FE5919CBE07B00D9B9BC /* ZHLibTests */,
+				C0E4FE4219CBE07B00D9B9BC /* Frameworks */,
+				C0E4FE4119CBE07B00D9B9BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E4FE4119CBE07B00D9B9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4FE4019CBE07B00D9B9BC /* libZHLib.a */,
+				C0E4FE5019CBE07B00D9B9BC /* ZHLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0E4FE4219CBE07B00D9B9BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4FE4319CBE07B00D9B9BC /* Foundation.framework */,
+				C0E4FE5119CBE07B00D9B9BC /* XCTest.framework */,
+				C0E4FE5419CBE07B00D9B9BC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0E4FE4519CBE07B00D9B9BC /* ZHLib */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4FE6919CBE0B200D9B9BC /* Message.h */,
+				C0E4FE6A19CBE0B200D9B9BC /* Message.m */,
+				C0E4FE4819CBE07B00D9B9BC /* ZHLib.h */,
+				C0E4FE4619CBE07B00D9B9BC /* Supporting Files */,
+			);
+			path = ZHLib;
+			sourceTree = "<group>";
+		};
+		C0E4FE4619CBE07B00D9B9BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4FE4719CBE07B00D9B9BC /* ZHLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E4FE5919CBE07B00D9B9BC /* ZHLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4FE5F19CBE07B00D9B9BC /* ZHLibTests.m */,
+				C0E4FE5A19CBE07B00D9B9BC /* Supporting Files */,
+			);
+			path = ZHLibTests;
+			sourceTree = "<group>";
+		};
+		C0E4FE5A19CBE07B00D9B9BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0E4FE5B19CBE07B00D9B9BC /* ZHLibTests-Info.plist */,
+				C0E4FE5C19CBE07B00D9B9BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E4FE3F19CBE07B00D9B9BC /* ZHLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E4FE6319CBE07B00D9B9BC /* Build configuration list for PBXNativeTarget "ZHLib" */;
+			buildPhases = (
+				C0E4FE3C19CBE07B00D9B9BC /* Sources */,
+				C0E4FE3D19CBE07B00D9B9BC /* Frameworks */,
+				C0E4FE3E19CBE07B00D9B9BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHLib;
+			productName = ZHLib;
+			productReference = C0E4FE4019CBE07B00D9B9BC /* libZHLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0E4FE4F19CBE07B00D9B9BC /* ZHLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E4FE6619CBE07B00D9B9BC /* Build configuration list for PBXNativeTarget "ZHLibTests" */;
+			buildPhases = (
+				C0E4FE4C19CBE07B00D9B9BC /* Sources */,
+				C0E4FE4D19CBE07B00D9B9BC /* Frameworks */,
+				C0E4FE4E19CBE07B00D9B9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E4FE5719CBE07B00D9B9BC /* PBXTargetDependency */,
+			);
+			name = ZHLibTests;
+			productName = ZHLibTests;
+			productReference = C0E4FE5019CBE07B00D9B9BC /* ZHLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E4FE3819CBE07B00D9B9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "zeng hui";
+			};
+			buildConfigurationList = C0E4FE3B19CBE07B00D9B9BC /* Build configuration list for PBXProject "ZHLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0E4FE3719CBE07B00D9B9BC;
+			productRefGroup = C0E4FE4119CBE07B00D9B9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E4FE3F19CBE07B00D9B9BC /* ZHLib */,
+				C0E4FE4F19CBE07B00D9B9BC /* ZHLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E4FE4E19CBE07B00D9B9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4FE5E19CBE07B00D9B9BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E4FE3C19CBE07B00D9B9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4FE6B19CBE0B200D9B9BC /* Message.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E4FE4C19CBE07B00D9B9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E4FE6019CBE07B00D9B9BC /* ZHLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0E4FE5719CBE07B00D9B9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E4FE3F19CBE07B00D9B9BC /* ZHLib */;
+			targetProxy = C0E4FE5619CBE07B00D9B9BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0E4FE5C19CBE07B00D9B9BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E4FE5D19CBE07B00D9B9BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0E4FE6119CBE07B00D9B9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0E4FE6219CBE07B00D9B9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E4FE6419CBE07B00D9B9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZHLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHLib/ZHLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0E4FE6519CBE07B00D9B9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZHLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHLib/ZHLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C0E4FE6719CBE07B00D9B9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHLib/ZHLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZHLibTests/ZHLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0E4FE6819CBE07B00D9B9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHLib/ZHLib-Prefix.pch";
+				INFOPLIST_FILE = "ZHLibTests/ZHLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E4FE3B19CBE07B00D9B9BC /* Build configuration list for PBXProject "ZHLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E4FE6119CBE07B00D9B9BC /* Debug */,
+				C0E4FE6219CBE07B00D9B9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E4FE6319CBE07B00D9B9BC /* Build configuration list for PBXNativeTarget "ZHLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E4FE6419CBE07B00D9B9BC /* Debug */,
+				C0E4FE6519CBE07B00D9B9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E4FE6619CBE07B00D9B9BC /* Build configuration list for PBXNativeTarget "ZHLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E4FE6719CBE07B00D9B9BC /* Debug */,
+				C0E4FE6819CBE07B00D9B9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0E4FE3819CBE07B00D9B9BC /* Project object */;
+}
