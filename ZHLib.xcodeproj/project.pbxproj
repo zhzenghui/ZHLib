@@ -54,6 +54,7 @@
 		C0E4FE6919CBE0B200D9B9BC /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		C0E4FE6A19CBE0B200D9B9BC /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		C0E4FFAB19CC030200D9B9BC /* ZHLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZHLib-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		C0E4FFAC19CC0C3300D9B9BC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		C0E4FE3719CBE07B00D9B9BC = {
 			isa = PBXGroup;
 			children = (
+				C0E4FFAC19CC0C3300D9B9BC /* LICENSE */,
 				C0E4FE4519CBE07B00D9B9BC /* ZHLib */,
 				C0E4FE5919CBE07B00D9B9BC /* ZHLibTests */,
 				C0E4FE4219CBE07B00D9B9BC /* Frameworks */,
