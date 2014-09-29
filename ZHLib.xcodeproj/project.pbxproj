@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0BAB54719D936DA00EBA495 /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BAB54419D936DA00EBA495 /* NetWork.m */; };
+		C0BAB54819D936DA00EBA495 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BAB54619D936DA00EBA495 /* Reachability.m */; };
 		C0E4FE4419CBE07B00D9B9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4FE4319CBE07B00D9B9BC /* Foundation.framework */; };
 		C0E4FE4919CBE07B00D9B9BC /* ZHLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0E4FE4819CBE07B00D9B9BC /* ZHLib.h */; };
 		C0E4FE5219CBE07B00D9B9BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E4FE5119CBE07B00D9B9BC /* XCTest.framework */; };
@@ -42,6 +44,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C0BAB54319D936DA00EBA495 /* NetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		C0BAB54419D936DA00EBA495 /* NetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		C0BAB54519D936DA00EBA495 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C0BAB54619D936DA00EBA495 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C0BAB54919D9372B00EBA495 /* CCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLog.h; sourceTree = "<group>"; };
 		C0E4FE4019CBE07B00D9B9BC /* libZHLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZHLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E4FE4319CBE07B00D9B9BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0E4FE4819CBE07B00D9B9BC /* ZHLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLib.h; sourceTree = "<group>"; };
@@ -113,8 +120,13 @@
 		C0E4FE4519CBE07B00D9B9BC /* ZHLib */ = {
 			isa = PBXGroup;
 			children = (
+				C0BAB54319D936DA00EBA495 /* NetWork.h */,
+				C0BAB54419D936DA00EBA495 /* NetWork.m */,
+				C0BAB54519D936DA00EBA495 /* Reachability.h */,
+				C0BAB54619D936DA00EBA495 /* Reachability.m */,
 				C0E4FE6919CBE0B200D9B9BC /* Message.h */,
 				C0E4FE6A19CBE0B200D9B9BC /* Message.m */,
+				C0BAB54919D9372B00EBA495 /* CCLog.h */,
 				C0E4FE4819CBE07B00D9B9BC /* ZHLib.h */,
 				C0E4FE4619CBE07B00D9B9BC /* Supporting Files */,
 			);
@@ -228,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BAB54719D936DA00EBA495 /* NetWork.m in Sources */,
+				C0BAB54819D936DA00EBA495 /* Reachability.m in Sources */,
 				C0E4FE6B19CBE0B200D9B9BC /* Message.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
